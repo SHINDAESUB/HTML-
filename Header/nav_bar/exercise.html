@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>nav_bar</title>
+    <script src="https://kit.fontawesome.com/3d262f00db.js" crossorigin="anonymous">
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"></link>
+    <!-- Font awesome에서 다운로드 */ -->
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <!--  div말고 nav 사용 -->
+        <div class="navbar__logo">
+            <i class="fab fa-slack"></i>
+            <a href="">Obidiu</a>
+        </div> 
+
+        <!-- /*로고 박스*/ -->
+        <ul class="navbar__menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">information</a></li>
+            <li><a href="">example</a></li>
+            <li><a href="">watch</a></li>
+            <li><a href="">address</a></li>
+        </ul>
+        <!-- /*메뉴 박스*/ -->
+
+        <ul class="navbar__icons">
+            <li><i class="fab fa-facebook"></i></li>
+            <li><i class="fas fa-hashtag"></i></li>
+        </ul>
+        <!-- /* 링크 박스 이미지도 Font awesome
+        링크 넣을 때는 div보다는 ul 태그 사용 -->
+
+        <a href="#" class="navbar__toggleBtn">
+            <i class="fas fa-bars"></i>
+        </a>
+    </nav>
+</body>
+</html>
