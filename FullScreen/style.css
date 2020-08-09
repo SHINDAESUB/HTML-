@@ -24,20 +24,20 @@ img{
 }
 
 /* 배경화면 이미지 첨부*/
-#home{
+/* #home{
     background-image: url(../FullScreen/image/background.jpg);
     min-height: 100vh;
-}
+} */
 
 /* 배경화면 이미지에 색 넣기 */
-/*
-#home{
+
+/* #home{
     background-image: url(../FullScreen/image/background.jpg);
     background-color: var(--bule);  
-    background-blend-mode: hard-light;  // 블랜드 모드 : 배경화면 밝기 모드 
+    background-blend-mode: hard-light; 
     min-height: 100vh;
-} 
-*/
+}  */
+ /* 블랜드 모드 : background-blend-mode: hard-light;  배경화면 밝기 모드 */
 
 /* 배경화면 그레디언트 */
 /* #home{
@@ -46,11 +46,11 @@ img{
 } */
 
 /* 배경화면 이미지 그레디언트*/
-/* #home{
+#home{
     background-image: url(../FullScreen/image/background.jpg),linear-gradient(blue ,red);
     background-blend-mode: luminosity;
     min-height: 100vh;
-} */
+}
 
 
 #home .page-title{
