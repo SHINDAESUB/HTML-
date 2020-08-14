@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../TextEffect/1.jpg);
+    background-size: cover; /* 이미지의 가로세로 비율을 유지한 상태에서 꽉 채울떄 사용 */
+    background-position: center top;
+    background-repeat: no-repeat;
+    max-height: 100vh;
+}
+
+.intro {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* 사라짐 효과 */
+.intro-text{
+    width: 30%;
+    opacity: 0;  /*투명도 :0 부터 1까지 */
+    transform: translateY(20px);  /* Y축으로 100px 이동*/
+    transition: 0.5s all ease-in-out; /*효과시간 all ease-in-out  > 효과가 천천히 시작되어 천천히 끝납니다. */
+}
+
+/* 되돌리기 */
+.intro-appear{
+    opacity: 1;
+    transform: translateY(0px);
+
+}
